@@ -27,8 +27,9 @@
  <p id="demo"></p>
 
 <script>
-number= Math.round(Math.random()*10000);
-document.getElementById("demo").innerHTML = number;
+let numtext= num.toString(Math.round(Math.random()*10000));
+let num4D = numtext.slice(2, 6);
+document.getElementById("demo").innerHTML = num4D;
 </script>
 
  </body>
